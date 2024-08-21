@@ -30,3 +30,36 @@
 .mask-gradient-sm {
   mask: linear-gradient(to top, transparent, black 10%);
 }
+
+/* Désactiver les icônes de flèche par défaut */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  content: none;
+}
+
+/* Customiser les boutons */
+.swiper-button-prev,
+.swiper-button-next {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: #e2e8f0; /* gray-200 */
+}
+
+.swiper-button-prev {
+  left: -25px; /* Ajuster la position selon vos besoins */
+}
+
+.swiper-button-next {
+  right: -25px; /* Ajuster la position selon vos besoins */
+}

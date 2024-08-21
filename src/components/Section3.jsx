@@ -1,6 +1,7 @@
 "use client"
 import React from 'react'
 import { useState } from "react";
+import ProductCarousel from './ProductCarousel';
 
 const Section3 = () => {
   const [selected, setSelected] = useState("Chair");
@@ -33,6 +34,13 @@ const Section3 = () => {
             {category}
           </button>
         ))}
+      </div>
+
+      <ProductCarousel />
+
+      <div className="flex gap-4 items-center my-16">
+        <p className="text-[18px] text-orange">View All</p>
+        <img src="/arrow.svg" alt="Light right arrow" />
       </div>
     </section>
   );
