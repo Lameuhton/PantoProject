@@ -10,16 +10,16 @@
         @apply text-h1 text-white font-semibold -tracking-[0.01];
     }
     .h2 {
-        @apply text-h2 text-black1 font-bold;
+        @apply text-h2 text-black1 font-semibold;
     }
     .h3 {
-        @apply text-h3 text-black2 font-bold;
+        @apply text-h3 text-black2 font-semibold;
     }
     .title {
         @apply text-title text-orange font-semibold tracking-[0.17];
     }
     .p {
-        @apply text-p text-greyText font-normal;
+        @apply text-p text-greyText font-light;
     }
 }
 
