@@ -48,17 +48,19 @@
 
 .swiper-button-prev:hover,
 .swiper-button-next:hover {
-  background-color: #e2e8f0; /* gray-200 */
+  background-color: #e2e8f0; 
 }
 
 .swiper-button-prev.custom-button {
-  left: -25px; /* Ajuster la position selon vos besoins */
+  left: -25px;
+  top: 190px; 
 }
 
 .swiper-button-next.custom-button {
-  right: -25px; /* Ajuster la position selon vos besoins */
+  right: -25px;
+  top: 190px; 
 }
-/* Assurez-vous de cibler directement les pseudo-éléments */
+
 .swiper-button-prev.custom-button::after,
 .swiper-button-next.custom-button::after {
   content: none !important;
