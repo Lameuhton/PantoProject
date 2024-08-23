@@ -18,6 +18,7 @@ export default function Home() {
         <Section3 />
         <Section4 />
         <Section5 />
+        <Testimonials />
       </main>
       <Footer />
     </>

@@ -2,7 +2,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { FaPlus, FaChevronLeft, FaChevronRight, FaStar } from "react-icons/fa";
+import { FaPlus, FaStar } from "react-icons/fa";
 
 export default function ProductCarousel() {
   const products = [
