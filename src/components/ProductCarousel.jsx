@@ -56,11 +56,11 @@ export default function ProductCarousel() {
       >
         {products.map((product, index) => (
           <SwiperSlide key={index}>
-            <div className="bg-grey2 rounded-t-2xl px-6 pt-6">
+            <div className="bg-grey2 rounded-t-2xl px-6 pt-6 h-[239px]">
               <img
                 src={product.image}
                 alt={product.name}
-                className="w-full h-48 object-contain"
+                className="w-full object-contain relative bottom-20"
               />
             </div>
 
@@ -71,11 +71,14 @@ export default function ProductCarousel() {
                 {Array(product.rating)
                   .fill()
                   .map((_, i) => (
-                    <FaStar key={i} className="text-yellow-500" />
+                    <FaStar key={i} className="text-[#F6B76F]" />
                   ))}
               </div>
               <div className="flex justify-between flex-wrap items-center mt-10">
-                <p className="text-lg font-semibold">${product.price}</p>
+                <p className="text-lg font-semibold flex align-top gap-1">
+                  <span className="text-sm">$</span>
+                  {product.price}
+                </p>
                 <button className="w-10 h-10 bg-[#0D1B39] text-white rounded-full flex items-center justify-center">
                   <FaPlus />
                 </button>
