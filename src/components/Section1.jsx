@@ -7,7 +7,7 @@ export default function Section1() {
     <section className="bg-[url('/backgroundHomepage.png')] h-[1084px] bg-cover bg-center mask-gradient-sm">
       <div className="pt-40 px-64 2xl:px-72 text-center flex flex-col items-center">
         <h1 className="h1">Make Your Interior More Minimalistic & Modern</h1>
-        <p className="pt-5 text-[24px] text-white font-extralight leading-10 w-[70%] 2xl:px-28 mx-auto">
+        <p className="pt-5 text-[24px] text-white font-extralight leading-10 w-[80%] 2xl:px-28 mx-auto">
           Turn your room with panto into a lot more minimalist and modern with
           ease and speed
         </p>

@@ -3,7 +3,7 @@ import MoreInfo from "./MoreInfo";
 
 const Section2 = () => {
   return (
-    <section className="px-20 grid grid-cols-4 py-40 gap-10 2xl:gap-32">
+    <section className="px-20 grid grid-cols-4 py-40 gap-10">
       <h2 className="h2">Why Choosing Us</h2>
       <div className="flex flex-col gap-4">
         <h3 className="h3">Luxury facilites</h3>
