@@ -80,11 +80,11 @@ export default function ProductCarousel() {
           </SwiperSlide>
         ))}
         {/* Custom navigation buttons */}
-        <div className="swiper-button-prev">
-          <FaChevronLeft className="text-gray-800 w-6 h-6" />
+        <div className="swiper-button-prev custom-button">
+          <img src="/ArrowL.svg" alt="Little arrow left" />
         </div>
-        <div className="swiper-button-next">
-          <FaChevronRight className="text-gray-800 w-6 h-6" />
+        <div className="swiper-button-next custom-button">
+          <img src="/ArrowR.svg" alt="Little arrow right" />
         </div>
       </Swiper>
     </div>
