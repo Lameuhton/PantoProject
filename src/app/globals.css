@@ -43,6 +43,7 @@
   justify-content: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s ease;
+  z-index: 10;
 }
 
 .swiper-button-prev:hover,
@@ -61,4 +62,7 @@
 .swiper-button-prev.custom-button::after,
 .swiper-button-next.custom-button::after {
   content: none !important;
+}
+.swiper {
+  overflow: visible !important;
 }

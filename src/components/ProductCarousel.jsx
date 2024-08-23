@@ -33,8 +33,9 @@ export default function ProductCarousel() {
   ];
 
   return (
-    <div className="relative w-full max-w-6xl mx-auto mt-20">
+    <div className="relative w-full max-w-6xl mx-auto mt-20 overflow-visible">
       <Swiper
+        className="overflow-visible"
         spaceBetween={30}
         slidesPerView={1}
         navigation={{
@@ -55,12 +56,15 @@ export default function ProductCarousel() {
       >
         {products.map((product, index) => (
           <SwiperSlide key={index}>
-            <div className="bg-white rounded-2xl p-6">
+            <div className="bg-grey2 rounded-t-2xl px-6 pt-6">
               <img
                 src={product.image}
                 alt={product.name}
-                className="w-full h-48 object-contain mb-4"
+                className="w-full h-48 object-contain"
               />
+            </div>
+
+            <div className="bg-white rounded-b-2xl pb-6 px-6 pt-3">
               <p className="text-gray-500 text-[17px] font-light">Chair</p>
               <h3 className="h3 text-[21px]">{product.name}</h3>
               <div className="flex items-center my-2 gap-1">
