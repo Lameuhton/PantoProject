@@ -33,7 +33,7 @@ export default function ProductCarousel() {
   ];
 
   return (
-    <div className="relative w-full max-w-6xl mx-auto mt-20 overflow-visible">
+    <div className="relative w-full max-w-6xl mx-auto mt-36 overflow-visible">
       <Swiper
         className="overflow-visible"
         spaceBetween={30}
